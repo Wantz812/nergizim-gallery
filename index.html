@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="az">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Nergizimə Xüsusi</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to bottom, #fff0f5, #ffe6f0);
+      color: #333;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 20px;
+    }
+
+    h1 {
+      text-align: center;
+      margin-top: 20px;
+      font-size: 2em;
+      color: #cc3366;
+      animation: fadeInDown 2s ease-in-out;
+    }
+
+    .subtitle {
+      margin: 10px 0 30px;
+      font-size: 1.1em;
+      text-align: center;
+      color: #5c5c5c;
+      max-width: 500px;
+      animation: fadeIn 3s ease-in-out;
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 15px;
+      width: 100%;
+      max-width: 1000px;
+      animation: fadeIn 3.5s ease-in-out;
+    }
+
+    .gallery img {
+      width: 100%;
+      border-radius: 20px;
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .gallery img:hover {
+      transform: scale(1.05);
+      box-shadow: 0 12px 24px rgba(0, 0, 0, 0.25);
+    }
+
+    footer {
+      margin-top: 40px;
+      font-size: 0.9em;
+      color: #888;
+      text-align: center;
+    }
+
+    .signature {
+      font-style: italic;
+      margin-top: 20px;
+      color: #5c5c5c;
+    }
+
+    .heart {
+      color: #cc3366;
+      font-size: 1.2em;
+    }
+
+    @keyframes fadeInDown {
+      0% { opacity: 0; transform: translateY(-30px); }
+      100% { opacity: 1; transform: translateY(0); }
+    }
+
+    @keyframes fadeIn {
+      0% { opacity: 0; }
+      100% { opacity: 1; }
+    }
+
+    @media (max-width: 600px) {
+      h1 {
+        font-size: 1.6em;
+      }
+
+      .subtitle {
+        font-size: 1em;
+      }
+    }
+  </style>
+</head>
+<body>
+  <h1>Canım Nergizim 💖</h1>
+  <p class="subtitle">Hər şəkildə sənin gözəlliyini, gülüşündə isə bütün həyatımın mənasını görürəm. Səni çox sevirəm... 🌹</p>
+
+  <div class="gallery">
+    <img src="images/Photo1.jpg" alt="Nergizim 1" />
+    <img src="images/Photo2.jpg" alt="Nergizim 2" />
+    <img src="images/Photo3.jpg" alt="Nergizim 3" />
+    <img src="images/Photo4.jpg" alt="Nergizim 4" />
+    <img src="images/Photo5.jpg" alt="Nergizim 5" />
+    <img src="images/Photo6.jpg" alt="Nergizim 6" />
+    <img src="images/Photo7.jpg" alt="Nergizim 7" />
+    <img src="images/Photo8.jpg" alt="Nergizim 8" />
+    <img src="images/Photo9.jpg" alt="Nergizim 9" />
+    <img src="images/Photo10.jpg" alt="Nergizim 10" />
+  </div>
+
+  <footer>
+    <p class="signature">Hazırlayan: YOLDAAAŞINN 💖</p>
+    <p class="heart">Bu anılar hər zaman qəlbimizdə olacaq... 💖</p>
+  </footer>
+</body>
+</html>
